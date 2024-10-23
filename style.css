@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #1c2e4a; /* Warna latar belakang navbar */
+  background-color: #1c2e4a;
   padding: 10px 0;
 }
 
@@ -22,7 +22,7 @@ header {
 }
 
 .navbar-container {
-  max-width: 900px; /* Batasi lebar navbar */
+  max-width: 900px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,16 +36,16 @@ header {
 }
 
 .main-container {
-  display: flex; /* Menampilkan sidebar dan konten dalam satu baris */
+  display: flex;
 }
 
 .sidebar {
-  width: 250px; /* Lebar sidebar */
-  background-color: #3b4f7c; /* Warna latar belakang sidebar yang lebih cerah */
+  width: 250px;
+  background-color: #3b4f7c;
   color: white;
   padding: 20px;
-  border-radius: 0 10px 10px 0; /* Sudut melengkung sidebar */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Bayangan sidebar */
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .sidebar-title {
@@ -65,17 +65,17 @@ header {
   padding: 10px;
   margin: 10px 0;
   transition: background-color 0.3s, color 0.3s;
-  border-radius: 5px; /* Sudut melengkung pada tautan */
-  font-weight: 500; /* Menebalkan teks */
+  border-radius: 5px;
+  font-weight: 500;
 }
 
 .sidebar-link:hover {
-  background-color: #4a6eb1; /* Warna latar belakang saat hover */
-  color: #fff; /* Warna teks saat hover */
+  background-color: #4a6eb1;
+  color: #fff;
 }
 
 .content {
-  flex: 1; /* Membuat konten mengisi sisa ruang */
+  flex: 1;
   padding: 20px;
 }
 
@@ -87,7 +87,7 @@ header {
 }
 
 .news-list-container {
-  max-width: 600px; /* Batasi lebar daftar berita */
+  max-width: 600px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -117,13 +117,13 @@ header {
 }
 
 .news-title {
-  font-size: 1.2em; /* Ukuran teks lebih kecil untuk daftar berita */
+  font-size: 1.2em;
   color: #1c2e4a;
 }
 
 .news-container {
-  max-width: 800px; /* Batasi lebar konten berita */
-  margin: 20px auto; /* Tengah dan jarak atas/bawah */
+  max-width: 800px;
+  margin: 20px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
