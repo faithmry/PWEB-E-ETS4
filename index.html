@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar Berita</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-container">
+          <a href="#" class="navbar-logo">Berita Utama</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="main-container">
+      <aside class="sidebar">
+        <h2 class="sidebar-title">Kategori Berita</h2>
+        <ul class="sidebar-menu">
+          <li><a href="#kategori1" class="sidebar-link">Politik</a></li>
+          <li><a href="#kategori2" class="sidebar-link">Ekonomi</a></li>
+          <li><a href="#kategori3" class="sidebar-link">Olahraga</a></li>
+          <li><a href="#kategori4" class="sidebar-link">Teknologi</a></li>
+        </ul>
+      </aside>
+
+      <div class="content">
+        <h1 class="page-title">Daftar Berita Terbaru</h1>
+        <div class="news-list-container">
+          <ul class="news-list">
+            <li class="news-item">
+              <a href="#berita1" class="news-link">
+                <h2 class="news-title">
+                  Prabowo Subianto dan Gibran Rakabuming Raka Resmi Dilantik
+                </h2>
+              </a>
+            </li>
+            <li class="news-item">
+              <a href="#berita2" class="news-link">
+                <h2 class="news-title">
+                  Kecelakaan Beruntun Flyover Depok Diduga Akibat Motor Pelat
+                  Dinas
+                </h2>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Bagian berita -->
+        <div class="news-container" id="berita1">
+          <h2 class="news-title">
+            Prabowo Subianto dan Gibran Rakabuming Raka Resmi Dilantik Sebagai
+            Presiden dan Wakil Presiden RI
+          </h2>
+          <img
+            src="presiden.jpeg"
+            alt="Prabowo Subianto dan Gibran Rakabuming Raka"
+            class="news-image"
+          />
+          <p class="news-date">Diterbitkan pada: 23 Oktober 2024</p>
+          <div class="news-content">
+            <p>
+              Prabowo Subianto dan Gibran Rakabuming Raka secara resmi dilantik
+              sebagai Presiden dan Wakil Presiden Republik Indonesia dalam
+              sebuah upacara kenegaraan yang khidmat. Pelantikan tersebut
+              disaksikan oleh berbagai pejabat negara, tokoh masyarakat, dan
+              perwakilan dari berbagai negara. Dalam pidatonya, Prabowo
+              menekankan pentingnya persatuan dan kerja keras untuk membawa
+              Indonesia menuju masa depan yang lebih baik. Gibran, yang
+              merupakan putra dari Presiden Joko Widodo, juga menyampaikan rasa
+              syukurnya dan siap bekerja sama dalam memimpin Indonesia.
+            </p>
+          </div>
+          <button onclick="goBack()" class="back-button">
+            ← Kembali ke Daftar Berita
+          </button>
+        </div>
+
+        <div class="news-container" id="berita2">
+          <h2 class="news-title">
+            Kecelakaan Beruntun Flyover Depok Diduga Akibat Motor Pelat Dinas
+          </h2>
+          <img
+            src="berita2.jpeg"
+            alt="Kecelakaan Flyover Depok"
+            class="news-image"
+          />
+          <p class="news-date">Diterbitkan pada: 23 Oktober 2024</p>
+          <div class="news-content">
+            <p>
+              Kecelakaan beruntun di Flyover Depok melibatkan beberapa
+              kendaraan, diduga akibat motor pelat dinas. Kejadian tersebut
+              menimbulkan kemacetan yang cukup parah dan menjadi perhatian
+              publik. Pihak kepolisian sedang menyelidiki penyebab kecelakaan
+              ini.
+            </p>
+          </div>
+          <button onclick="goBack()" class="back-button">
+            ← Kembali ke Daftar Berita
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function goBack() {
+        window.scrollTo(0, 0);
+      }
+    </script>
+  </body>
+</html>
